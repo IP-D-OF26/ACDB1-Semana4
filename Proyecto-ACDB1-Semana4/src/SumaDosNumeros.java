@@ -15,16 +15,24 @@ public class SumaDosNumeros {
         //[Fuento-del-ingreso-datos: System.in => las entradas del sistema]
         Scanner teclado = new Scanner(System.in);
         int num1, num2, respuesta;
-        System.out.println("Deme dos numeros: "); //Carpintaria => tunear
+        System.out.println("Deme el PRIMERO numero: "); //Carpintaria => tunear
         num1 = teclado.nextInt();
+        System.out.println("Deme el SEGUNDO numero: "); //Carpintaria => tunear
         num2 = teclado.nextInt();
         respuesta = num1 + num2;
-        System.out.println("La respuestas es: ");
+        System.out.println("La respuestas de la suma de los numeros [" 
+                                    + num1 + "] y [" + num2 + "] es: ");
         System.out.println(respuesta);
         
     }
 }
 
 /**
- * RUN
+ * run:
+Deme dos numeros: 
+3
+-7
+La respuestas es: 
+-4
+BUILD SUCCESSFUL (total time: 3 seconds)
  */
