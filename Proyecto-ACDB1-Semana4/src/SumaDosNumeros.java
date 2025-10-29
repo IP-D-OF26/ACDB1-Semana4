@@ -20,10 +20,9 @@ public class SumaDosNumeros {
         System.out.println("Deme el SEGUNDO numero: "); //Carpintaria => tunear
         num2 = teclado.nextInt();
         respuesta = num1 + num2;
-        System.out.println("La respuestas de la suma de los numeros [" 
+        System.out.print("La respuesta de la suma de los numeros [" 
                                     + num1 + "] y [" + num2 + "] es: ");
         System.out.println(respuesta);
-        
     }
 }
 
