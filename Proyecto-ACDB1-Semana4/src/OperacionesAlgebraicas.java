@@ -24,6 +24,6 @@ public class OperacionesAlgebraicas {
         //%s para texto
         //%f para datos numericos reales
         //%d para datos numericos enteros
-        System.out.printf("%f %s %d %s %f" , num1, "elevado a", num2, "es:", respt);
+        System.out.printf("%.2f %s %d %s %.2f \n" , num1, "elevado a", num2, "es:", respt);
     }
 }
